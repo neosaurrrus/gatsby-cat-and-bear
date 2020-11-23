@@ -1,12 +1,12 @@
 import React from 'react';
 import Nav from '../components/Nav.js';
 
-function TeamPage() {
+function DrinkPage() {
   return (
     <>
-      <p>This is the TEAM page</p>
+      <p>This is the Drink page</p>
     </>
   );
 }
 
-export default TeamPage;
+export default DrinkPage;
