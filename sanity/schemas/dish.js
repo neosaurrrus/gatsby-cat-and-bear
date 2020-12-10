@@ -1,5 +1,3 @@
-import { check } from 'prettier';
-
 export default {
   name: 'dish',
   title: 'Dishes',
