@@ -70,6 +70,7 @@ export default {
     },
     prepare: (fields) => ({
       title: `${fields.name} ${
+        // eslint-disable-next-line no-nested-ternary
         fields.vegan ? '- 🌱  Ve' : fields.vegetarian ? '-🍆  Veg' : ''
       }`,
     }),
