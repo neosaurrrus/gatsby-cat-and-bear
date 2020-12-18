@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('/Users/lukiekang/Development/new-app/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/lukiekang/Development/new-app/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"f95cyo0y","dataset":"production","watchMode":true,"token":"sk1x3yrDH8OIOrUPnpktApLESmRby1DWVK6pEdCZ7K9CtuPXCsbNiRhxENErXilyxXnggNEVncxOclmmeqotdqCX9BSZFJIzaRpG2eefPCBkcl2FAJ48EuINwyRtKRactCCUdx19FAno5vkt5i7MZbn7B9fm1x7zFLg1400WUKLGAcuH5Hj4"},
+    },{
       plugin: require('/Users/lukiekang/Development/new-app/gatsby/gatsby-ssr'),
       options: {"plugins":[]},
     }]
